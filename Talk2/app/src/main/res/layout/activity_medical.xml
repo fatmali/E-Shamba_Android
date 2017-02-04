@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/medical_tb"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:title="@string/medical"
+                app:title="@string/medical"
+                app:titleTextColor="@android:color/background_light"
+                />
+
+            <Button
+                android:text="I need a rest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"/>
+
+            <Button
+                android:text="I need to sleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_2"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:text="Please bring me toilet paper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_3"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="I don’t feel fine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_4"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="I feel short of breadth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_5"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+            <Button
+                android:text="Its too painful"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_6"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="I am feeling weak
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_7"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+            <Button
+                android:text="I feel dizzy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_8"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+
+            <Button
+                android:text="I feel fine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_9"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="Please call the doctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_10"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="Please take me to hospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medical_btn_11"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.Toolbar
+            android:id="@+id/comfort_tb"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:title="@string/comfort"
+            app:title="@string/comfort"
+            app:titleTextColor="@android:color/background_light"
+            app:headerLayout="@layout/navbar_header"
+            />
+
+
+
+
+            <Button
+                android:text="Please assist me to sit up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_1"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"/>
+
+            <Button
+                android:text="Please assist me to turnover."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_2"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:text="Please assist me to take a walk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_3"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="Please switch on the TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_4"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="Please help me deposit cash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_5"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+            <Button
+                android:text="It is too tight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_6"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+            <Button
+                android:text="I am feeling weak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_7"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+            <Button
+                android:text="Please bring me a book"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comfort_btn_8"
+                android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textSize="18sp" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

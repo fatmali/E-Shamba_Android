@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="May I have some more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_1"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="I need my dinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_2"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="I need my breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_3"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have lunch please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_4"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have meat please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_5"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have fish please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_6"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have salt please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_7"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have sugar please"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_8"
+        android:layout_weight="1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+</LinearLayout>

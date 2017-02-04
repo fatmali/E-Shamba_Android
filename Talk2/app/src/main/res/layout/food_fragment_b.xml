@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="May I have a cup?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_9"
+        android:layout_weight="0.2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:elevation="0dp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have a Spoon?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_10"
+        android:layout_weight="0.2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have a plate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_11"
+        android:layout_weight="0.2"
+        android:textSize="18sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have a saucer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_12"
+        android:layout_weight="0.2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+
+    <Button
+        android:text="May I have a fork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/food_btn_13"
+        android:layout_weight="0.2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off" />
+</LinearLayout>

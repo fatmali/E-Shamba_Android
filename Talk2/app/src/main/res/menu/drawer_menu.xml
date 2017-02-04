@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:enabled="true"
+        android:visible="true"
+        android:id="@+id/grp5">
+    <item android:title="@string/greetings"
+        android:id="@+id/greetings_item"
+        android:icon="@mipmap/ic_launcher" />
+    </group>
+    <group android:enabled="true"
+    android:visible="true"
+    android:id="@+id/grp1">
+    <item android:title="@string/food"
+
+        android:id="@+id/food_item"
+        android:icon="@mipmap/food"
+
+        />
+</group>
+
+<group android:enabled="true"
+    android:visible="true"
+    android:id="@+id/grp2">
+    <item android:title="@string/washroom"
+        android:icon="@drawable/toilet"
+        android:id="@+id/loo_item" />
+</group>
+
+<group android:enabled="true"
+    android:visible="true"
+    android:id="@+id/grp3">
+    <item android:title="@string/drink"
+        android:icon="@mipmap/drink"
+        android:id="@+id/drink_item" />
+</group>
+
+<group android:enabled="true"
+    android:visible="true"
+    android:id="@+id/grp4">
+    <item android:title="@string/clothing"
+        android:id="@+id/clothing_item"
+        android:icon="@mipmap/clothing" />
+    </group>
+
+
+    <group android:enabled="true"
+        android:visible="true"
+        android:id="@+id/grp9">
+        <item android:title="Medical"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:id="@+id/medical_item" />
+    </group>
+
+    <group android:enabled="true"
+        android:visible="true"
+        android:id="@+id/grp6">
+    <item android:title="@string/comfort"
+        android:icon="@mipmap/comfort"
+        android:id="@+id/comfort_item" /></group>
+
+    <group android:enabled="true"
+        android:visible="true"
+        android:id="@+id/grp8">
+    <item android:title="@string/words"
+        android:id="@+id/word_item"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically" /></group>
+
+
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Washroom"
+        android:background="@color/colorPrimaryDark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/washroom_tb">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:text="Please assist me to shower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/washroom_btn_1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"/>
+
+    <Button
+        android:text="Please assist me go to the washroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/washroom_btn_2"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:text="Please bring me toilet paper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/washroom_btn_3"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+
+
+    <Button
+        android:text="I need a clean towel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/washroom_btn_4"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+</LinearLayout>

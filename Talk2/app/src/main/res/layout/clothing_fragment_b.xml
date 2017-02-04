@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Please help me remove my sweater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothing_btn_1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"/>
+
+    <Button
+        android:text="Please help me remove my shoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothing_btn_2"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:text="Please help me undress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothing_btn_3"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+
+
+    <Button
+        android:text="Please help me remove my sock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clothing_btn_4"
+        android:drawableLeft="@android:drawable/ic_lock_silent_mode_off"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
